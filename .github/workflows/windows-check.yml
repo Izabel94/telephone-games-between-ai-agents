@@ -1,0 +1,164 @@
+name: Participant setup check
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - python: "3.12"
+            hide_py_launcher: false
+            run_notebook: true
+          - python: "3.13"
+            hide_py_launcher: true
+            run_notebook: false
+          - python: "3.14"
+            hide_py_launcher: false
+            run_notebook: false
+          - python: "none"
+            hide_py_launcher: true
+            run_notebook: false
+    name: windows / python ${{ matrix.python }} / py launcher hidden ${{ matrix.hide_py_launcher }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        if: matrix.python != 'none'
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Build tw.zip and unzip it into Downloads like a participant
+        shell: pwsh
+        run: |
+          $files = "telephone.py","analysis.py","check_models.py","README.md","requirements.txt",".env.example","workshop.ipynb","Setup-Windows.bat","Start-Windows.bat","Setup-Mac.command","Start-Mac.command","results"
+          Compress-Archive -Path $files -DestinationPath "$env:RUNNER_TEMP\tw.zip"
+          $target = Join-Path $env:USERPROFILE "Downloads\tw"
+          Expand-Archive -Path "$env:RUNNER_TEMP\tw.zip" -DestinationPath $target -Force
+          Get-ChildItem $target -Recurse -File | ForEach-Object { Set-Content -Path $_.FullName -Stream Zone.Identifier -Value "[ZoneTransfer]`r`nZoneId=3" }
+          "TW=$target" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding ascii
+          Get-ChildItem $target | Select-Object Name
+
+      - name: Setup-Windows.bat with the key pasted at the prompt
+        shell: cmd
+        env:
+          PASTED_KEY: ${{ secrets.GEMINI_API_KEY }}
+          HIDE_PY: ${{ matrix.hide_py_launcher }}
+          NO_PYTHON: ${{ matrix.python == 'none' }}
+        run: |
+          if "%HIDE_PY%"=="true" set "PATH=%PATH:C:\Windows;=%"
+          if "%NO_PYTHON%"=="true" set "PATH=C:\Windows\System32;C:\Windows\System32\WindowsPowerShell\v1.0"
+          if "%HIDE_PY%"=="true" where py >nul 2>&1 && (echo py launcher still visible & exit /b 1)
+          if "%NO_PYTHON%"=="true" where python >nul 2>&1 && (echo python still visible & exit /b 1)
+          cd /d "%TW%"
+          echo %PASTED_KEY%| Setup-Windows.bat > setup.log 2>&1
+          type setup.log
+          findstr /c:"Setup done" setup.log >nul || exit /b 1
+          if "%NO_PYTHON%"=="true" findstr /c:"Installing Python 3.12 into this folder" setup.log >nul || exit /b 1
+          if "%NO_PYTHON%"=="true" if exist "%USERPROFILE%\.local\bin" (echo setup wrote to .local\bin & exit /b 1)
+          if "%NO_PYTHON%"=="true" reg query HKCU\Software\Python\Astral >nul 2>&1 && (echo setup wrote to the registry & exit /b 1)
+          exit /b 0
+
+      - name: Start-Windows.bat opens the notebook
+        shell: pwsh
+        run: |
+          Set-Location $env:TW
+          Start-Process -FilePath "cmd.exe" -ArgumentList "/c", "Start-Windows.bat", "--no-browser", "--port", "8888", "--IdentityProvider.token=ci-check" -WindowStyle Hidden
+          $ok = $false
+          foreach ($i in 1..40) {
+            Start-Sleep -Seconds 2
+            try {
+              $r = Invoke-WebRequest -Uri "http://localhost:8888/api/contents/workshop.ipynb?token=ci-check" -UseBasicParsing -TimeoutSec 5
+              if ($r.StatusCode -eq 200) { $ok = $true; break }
+            } catch { }
+          }
+          Get-Process jupyter* -ErrorAction SilentlyContinue | Stop-Process -Force
+          if (-not $ok) { throw "Start-Windows.bat did not serve workshop.ipynb" }
+          Write-Output "Start-Windows.bat served workshop.ipynb"
+
+      - name: Run the whole notebook (live demo, your turn, preloaded charts)
+        if: matrix.run_notebook
+        shell: cmd
+        env:
+          MPLBACKEND: Agg
+        run: |
+          cd /d "%TW%"
+          .venv\Scripts\jupyter nbconvert --to notebook --execute workshop.ipynb --output executed.ipynb --ExecutePreprocessor.timeout=900
+
+  mac:
+    runs-on: macos-latest
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        include:
+          - python: "3.12"
+            run_notebook: true
+          - python: "3.14"
+            run_notebook: false
+          - python: "none"
+            run_notebook: false
+    name: mac / python ${{ matrix.python }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97  # v7.0.0
+        if: matrix.python != 'none'
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Build tw.zip and unzip it into Downloads like a participant
+        run: |
+          zip -qr "$RUNNER_TEMP/tw.zip" telephone.py analysis.py check_models.py README.md requirements.txt .env.example workshop.ipynb Setup-Windows.bat Start-Windows.bat Setup-Mac.command Start-Mac.command results
+          mkdir -p "$HOME/Downloads/tw"
+          unzip -q "$RUNNER_TEMP/tw.zip" -d "$HOME/Downloads/tw"
+          echo "TW=$HOME/Downloads/tw" >> "$GITHUB_ENV"
+          ls -l "$HOME/Downloads/tw"
+
+      - name: Setup-Mac.command with the key pasted at the prompt
+        env:
+          PASTED_KEY: ${{ secrets.GEMINI_API_KEY }}
+          NO_PYTHON: ${{ matrix.python == 'none' }}
+        run: |
+          cd "$TW"
+          if [ "$NO_PYTHON" = true ]; then export PATH=/usr/bin:/bin:/usr/sbin:/sbin; fi
+          printf '%s\n' "$PASTED_KEY" | ./Setup-Mac.command | tee setup.log
+          grep -q "Setup done" setup.log
+          if [ "$NO_PYTHON" = true ]; then grep -q "Installing Python 3.12 into this folder" setup.log; fi
+
+      - name: Start-Mac.command opens the notebook
+        run: |
+          cd "$TW"
+          ./Start-Mac.command --no-browser --port 8888 --IdentityProvider.token=ci-check > jupyter.log 2>&1 &
+          for _ in $(seq 1 40); do
+            sleep 2
+            if curl -sf -o /dev/null "http://localhost:8888/api/contents/workshop.ipynb?token=ci-check"; then
+              echo "Start-Mac.command served workshop.ipynb"
+              pkill -f "jupyter-lab|jupyter lab" || true
+              exit 0
+            fi
+          done
+          cat jupyter.log
+          exit 1
+
+      - name: Run the whole notebook (live demo, your turn, preloaded charts)
+        if: matrix.run_notebook
+        env:
+          MPLBACKEND: Agg
+        run: |
+          cd "$TW"
+          .venv/bin/jupyter nbconvert --to notebook --execute workshop.ipynb --output executed.ipynb --ExecutePreprocessor.timeout=900

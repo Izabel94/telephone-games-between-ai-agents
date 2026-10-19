@@ -1,0 +1,13 @@
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.ruff_cache/
+.claude/
+results/smoke_*
+results/tree_*
+executed.ipynb
+.uv/
+.python/
+results/survey_answers.csv
+results/all_agent_outputs.csv

@@ -1,0 +1,721 @@
+setup,models,chain_length,profile,temperature,repeat,step,similarity
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,0,4,0.9875413548661928
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,0,6,0.921201040616038
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,0,8,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,1,4,0.9657573269431023
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,1,6,0.9436636206650836
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,1,8,0.952603952607678
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,0,2,0.9999999999999996
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,0,4,0.9179639882094102
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,0,6,0.919832968337106
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,0,8,0.9607331109019028
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,0,4,0.9407322611304676
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,0,6,0.9915687064011758
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,0,8,0.9645072304314294
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,2,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,2,4,0.962151599540316
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,2,6,0.9901792541690644
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,2,8,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,1,4,0.9177442989184798
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,1,6,0.93242888057936
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,1,8,0.9314163848504992
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,0,4,0.8971233213307201
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,0,6,0.8962534380304754
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,0,8,0.8992814350410846
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,2,4,0.99181137102704
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,2,6,0.9063558512935008
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,0.2,2,8,0.9358369137141004
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,1,4,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,1,6,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,0.2,1,8,0.9862531647502528
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,2,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,2,4,0.93054679699643
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,2,6,0.8971396512026157
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized extravert,1.0,2,8,0.9131060818782456
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,1,4,0.8848110041991761
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,1,6,0.9040720842515504
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,1,8,0.9043090109860272
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,2,4,0.8868647091481529
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,2,6,0.9060987670512298
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized extravert,1.0,2,8,0.9062461320653484
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,0,4,0.9736302148798112
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,0,6,0.9732425491742952
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,0,8,0.9736302148798112
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,0,4,0.9479135967831078
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,0,6,0.95050251069057
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,0,8,0.9381849144004124
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,2,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,2,4,0.964013244009588
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,2,6,0.9646456921549172
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,2,8,0.9646456921549172
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,1,4,0.9752372332552566
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,1,6,0.9681097235759748
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,0.2,1,8,0.9863670031608276
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,1,4,0.9723820277866636
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,1,6,0.902960477365524
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,1,8,0.8888649618996254
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,2,2,0.9999999999999996
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,2,4,0.88345068221224
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,2,6,0.8933785583094523
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized extravert,1.0,2,8,0.895708016603491
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,0,4,0.9679449935727082
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,0,6,0.9141987193016844
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,0,8,0.9838618254982194
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,1,4,0.9697407070729568
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,1,6,0.907706935171828
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,1,8,0.9798844017889
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,0,4,0.923964687772369
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,0,6,0.9410611834608056
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,0,8,0.9286432449171912
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,2,4,0.9255944476236934
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,2,6,0.845425502450011
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,2,8,0.908367163130354
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,0,4,0.9422776976554528
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,0,6,0.9710541998065032
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,0,8,0.9710541998065032
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,2,4,0.9770800123166196
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,2,6,0.9165321381506828
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,0.2,2,8,0.9546242930823295
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,0,4,0.929639790155036
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,0,6,0.924596028023392
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,0,8,0.9234667583123762
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,1,4,0.9153384245623092
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,1,6,0.9395601455776756
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized extravert,1.0,1,8,0.9180776166967728
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,1,4,0.9288326115028984
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,1,6,0.9288326115028984
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,1,8,0.9605275405310728
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,2,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,2,4,0.9387910309520006
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,2,6,0.9480375909753436
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,2,8,0.9524685295543234
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,2,2,0.9999999999999996
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,2,4,0.9290642577938536
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,2,6,0.96925269070592
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,0.2,2,8,0.9421422848208836
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,1,4,0.9373867128888662
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,1,6,0.9585101179149736
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious organized introvert,1.0,1,8,0.9609233415913662
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,0,4,0.9440620919473244
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,0,6,0.9440620919473244
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,0,8,0.9391909416481156
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,1,4,0.9456359693321296
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,1,6,0.956276529034912
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,1,8,0.9650934489094916
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,0,4,0.9364739896258236
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,0,6,0.9280080155380503
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,0,8,0.9269166967145204
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,2,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,2,4,0.9984691599571088
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,2,6,0.9490371479028444
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,2,8,0.9851735435540816
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,1,4,0.9641516156764078
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,1,6,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,0.2,1,8,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,1,4,0.9935142872359108
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,1,6,0.9963433054091432
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,1,8,0.9843222230567088
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,0,4,0.9872297213447044
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,0,6,0.9769065721167628
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,0,8,0.999707481277956
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,2,4,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,2,6,0.9984960794102552
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,0.2,2,8,0.9997342093279092
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,2,4,0.9202397122435468
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,2,6,0.9205475311782804
+Gemma 26B,gemma-4-26b-a4b-it,8,calm organized introvert,1.0,2,8,0.8902980958320755
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,0,4,0.9417962094170368
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,0,6,0.9416610384461316
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,0,8,0.9272549682087006
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,1,4,0.9070752203131708
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,1,6,0.9599539648518698
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,1,8,0.9629744385228378
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,2,4,0.9292158602977704
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,2,6,0.9830838508124076
+Gemma 26B,gemma-4-26b-a4b-it,8,anxious disorganized introvert,1.0,2,8,0.9185592910291616
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,0,4,0.9529412384657232
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,0,6,0.9402723696463978
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,0,8,0.9402723696463978
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,2,4,0.9639837387105764
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,2,6,0.9639837387105764
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,2,8,0.9639837387105764
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,1,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,1,4,0.9758127730922108
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,1,6,0.9775382833718236
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,0.2,1,8,0.9727651138144404
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,2,2,1.0000000000000004
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,2,4,0.9455261425403896
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,2,6,0.8754174878529101
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,2,8,0.9596786649543808
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,0,4,0.8898040101010096
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,0,6,0.8946910812967916
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,0,8,0.8942748242776922
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,1,4,0.9764526648363177
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,1,6,0.9027656020257244
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,1,8,0.940576755246608
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,0,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,0,4,0.9227724224715038
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,0,6,0.9216783626825988
+Gemma 26B,gemma-4-26b-a4b-it,8,calm disorganized introvert,1.0,0,8,0.9503649369950782
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,1,4,0.884637289423266
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,1,6,0.884637289423266
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,1,8,0.8827221207340569
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,2,4,0.8909458909587951
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,2,6,0.890706912814922
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,0.2,2,8,0.8996787779812974
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,0,4,0.9456565374288224
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,0,6,0.8804026527681166
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,0,8,0.8714301475464921
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,1,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,1,4,0.8594682561643276
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,1,6,0.9031745703299456
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,1,8,0.8909795541752975
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,0,4,0.9161316029761024
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,0,6,0.9250487416297511
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,0,8,0.9233226605010624
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,0,4,0.8950279338663014
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,0,6,0.8792286142188546
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,0,8,0.8791695838260207
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,2,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,2,4,0.873611039869841
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,2,6,0.8833317407999495
+Gemma 26B,gemma-4-26b-a4b-it,8,random-1,1.0,2,8,0.9171777777706784
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,2,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,2,4,0.9249322014502576
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,2,6,0.9152932870196592
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,2,8,0.9152932870196592
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,1,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,1,4,0.9197753757877832
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,1,6,0.9222895851528008
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,0.2,1,8,0.9059982908432488
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,1,2,0.9999999999999998
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,1,4,0.911937770508654
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,1,6,0.9025636021836064
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,1,8,0.8888721991424495
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,0,2,1.0
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,0,4,0.9083508726514226
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,0,6,0.904049501305089
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,0,8,0.8907185633607227
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,2,2,1.0000000000000002
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,2,4,0.8849756550186968
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,2,6,0.8665341721286395
+Gemma 26B,gemma-4-26b-a4b-it,8,random-2,1.0,2,8,0.8717916806800192
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,1,4,0.9259476261858862
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,1,6,0.9079547266111236
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,1,8,0.9079849070380416
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,2,4,0.9174658775725522
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,2,6,0.9690278044726488
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,0.2,2,8,0.882854474337004
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,0,4,0.9048382812945706
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,0,6,0.8960662059690044
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,0,8,0.9135125264079268
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,1,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,1,4,0.9313498197662496
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,1,6,0.9428561300407564
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,1,8,0.930769395886048
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,2,4,0.8826784824814901
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,2,6,0.8893352291451537
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized extravert,1.0,2,8,0.8468938889579578
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,0,4,0.8938008532174478
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,0,6,0.9228218984540728
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,0,8,0.9587426518256164
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,1,4,0.8952977932485559
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,1,6,0.9313605454411182
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,1,8,0.8471909809693874
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,2,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,2,4,0.9636284544813007
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,2,6,0.906590403073298
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,0.2,2,8,0.9061274231636802
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,0,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,0,4,0.9080643336915798
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,0,6,0.909816786240612
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,0,8,0.8934660621452093
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,1,4,0.9292363915612598
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,1,6,0.9039474404712676
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,1,8,0.8923517531801853
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,2,4,0.9115916528068716
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,2,6,0.892684128745189
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized extravert,1.0,2,8,0.9449554552363176
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,0,4,0.9580102939154248
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,0,6,0.917254895984108
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,0,8,0.902350471757427
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,1,4,0.8640055855210753
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,1,6,0.8971819619892631
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,1,8,0.896346002590542
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,2,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,2,4,0.9111738217789118
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,2,6,0.9020064021853044
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,0.2,2,8,0.9077944290200064
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,0,4,0.8776453450184247
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,0,6,0.8554851989004935
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,0,8,0.9210361306607042
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,1,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,1,4,0.899328899003744
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,1,6,0.9228057081917458
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,1,8,0.9345103236914896
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,2,4,0.9069481182125056
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,2,6,0.8733110006890227
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized extravert,1.0,2,8,0.8986104171126774
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,0,4,0.9162926980782248
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,0,6,0.9010258601687038
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,0,8,0.9036383865399074
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,1,4,0.8889036070169809
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,1,6,0.9061227452783984
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,1,8,0.9219805235005668
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,2,4,0.9413738783975116
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,2,6,0.9067512128595564
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,0.2,2,8,0.9081979870441894
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,0,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,0,4,0.9283397252928464
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,0,6,0.9327886605117172
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,0,8,0.9436757511116548
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,1,4,0.9295868225456873
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,1,6,0.9325702218189302
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,1,8,0.9318182957257404
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,2,4,0.8880816791775343
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,2,6,0.8744391540379903
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized extravert,1.0,2,8,0.8902818263534709
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,0,4,0.9203154898980028
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,0,6,0.908494397246848
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,0,8,0.8981756838704205
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,1,4,0.9493014450365972
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,1,6,0.9319233532250694
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,1,8,0.9208579593939368
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,2,4,0.9077032421131894
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,2,6,0.9228909664070768
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,0.2,2,8,0.9123345221501482
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,0,4,0.928074150793245
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,0,6,0.9004833109660335
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,0,8,0.9288039138201748
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,1,4,0.8985834657124963
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,1,6,0.9025666262909932
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,1,8,0.9048804810481592
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,2,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,2,4,0.9002918030211597
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,2,6,0.91076175054105
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious organized introvert,1.0,2,8,0.9299770699110466
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,0,4,0.9722736130972104
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,0,6,0.9663148754151848
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,0,8,0.9759254418467272
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,1,4,0.9421038050770336
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,1,6,0.92661930401909
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,1,8,0.9100632735597814
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,2,2,1.0000000000000004
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,2,4,0.9362744177620754
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,2,6,0.9041533046371562
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,0.2,2,8,0.9343808211823148
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,0,4,0.917888307420988
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,0,6,0.9491434985228436
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,0,8,0.9507454560803514
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,1,4,0.9189999039083052
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,1,6,0.9174508938934476
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,1,8,0.8858254154405345
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,2,4,0.921909720790322
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,2,6,0.9149274374828006
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm organized introvert,1.0,2,8,0.9209846597873252
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,0,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,0,4,0.913710553959414
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,0,6,0.8653579339652202
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,0,8,0.9370967615370523
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,1,4,0.9061561165023896
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,1,6,0.8939941179169463
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,1,8,0.9340367794269928
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,2,2,1.0000000000000004
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,2,4,0.9235199437488516
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,2,6,0.930779980649462
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,0.2,2,8,0.910148419652224
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,1,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,1,4,0.9248984624479668
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,1,6,0.8908119891513016
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,1,8,0.9279607149503206
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,0,4,0.9197608672595408
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,0,6,0.8817029563167894
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,0,8,0.9111089012953412
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,2,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,2,4,0.8850092888002896
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,2,6,0.9157978832059088
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,anxious disorganized introvert,1.0,2,8,0.871652690941239
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,0,4,0.945530780445976
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,0,6,0.9228586424620736
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,0,8,0.9240458358499865
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,2,4,0.9346968203532608
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,2,6,0.919404447718003
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,2,8,0.9125354148578808
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,0,4,0.9640998557136102
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,0,6,0.945038545399204
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,0,8,0.911889731649606
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,2,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,2,4,0.9149329335649948
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,2,6,0.928120310858483
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,2,8,0.9406515434973388
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,1,4,0.8886062278336185
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,1,6,0.936030228254927
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,1.0,1,8,0.9475383584972276
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,1,4,0.9140020848260874
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,1,6,0.9121216460886936
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,calm disorganized introvert,0.2,1,8,0.9006905366817083
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,0,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,0,4,0.8882843430098746
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,0,6,0.8666267463335222
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,0,8,0.957235426392629
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,1,4,0.9019986199690851
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,1,6,0.9001922309083339
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,1,8,0.8677909168892787
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,2,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,2,4,0.9122970345834543
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,2,6,0.8626412441901806
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,0.2,2,8,0.9007180553191342
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,0,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,0,4,0.920531159931114
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,0,6,0.9160049930871318
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,0,8,0.9211091228402856
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,1,2,0.9999999999999998
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,1,4,0.9199953283506136
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,1,6,0.940465105247292
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,1,8,0.9707337441221772
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,2,2,0.9999999999999998
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,2,4,0.90712969815921
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,2,6,0.9146368428017834
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,0.2,2,8,0.9697266983815636
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,0,4,0.8743162985915955
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,0,6,0.8910421866021105
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,0,8,0.9107953718789512
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,0,2,0.9999999999999996
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,0,4,0.9272042875788716
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,0,6,0.9156824828106406
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,0,8,0.927620382385955
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,1,4,0.8977643049499128
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,1,6,0.903396251924886
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,1,8,0.9354668077866728
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,2,4,0.8805062501998977
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,2,6,0.9362002778476776
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized extravert,1.0,2,8,0.8693241844978088
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,1,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,1,4,0.8999722069075555
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,1,6,0.9041980046583008
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,1,8,0.9153297251767882
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,1,4,0.9871015302239776
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,1,6,0.9945771983826368
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,1,8,0.9217574666408812
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,0,2,0.9999999999999996
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,0,4,0.9999999999999996
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,0,6,0.9727472551929812
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,0,8,0.9999999999999996
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,2,4,0.9021680771671604
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,2,6,0.9007122620077684
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,0.2,2,8,0.9017840481397562
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,1,4,0.9107030875020842
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,1,6,0.8957708344469024
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,1,8,0.8748934153610148
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,0,4,0.9399864544270086
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,0,6,0.8843845293118311
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,0,8,0.9243679638502328
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,2,4,0.9160991402543618
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,2,6,0.9427871407738702
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized extravert,1.0,2,8,0.8482679258766663
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,0,4,0.8896796468361711
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,0,6,0.8833563103310954
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,0,8,0.8839653829649448
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,1,4,0.957516612485346
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,1,6,0.8921616098750111
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,1,8,0.9688100313642976
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,2,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,2,4,0.97865470423357
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,2,6,0.97865470423357
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,0.2,2,8,0.8798839443663989
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,1,4,0.9069988536378424
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,1,6,0.852624908586684
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,1,8,0.8733958523283455
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,0,4,0.8661960028824758
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,0,6,0.9065104111601214
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,0,8,0.9073112479984295
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,2,4,0.8886622159809102
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,2,6,0.8510257794962721
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized extravert,1.0,2,8,0.9084381324328812
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,0,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,0,4,0.93294346991652
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,0,6,0.9423933054744869
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,0,8,0.9525560499097724
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,1,4,0.9337863092655784
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,1,6,0.9356924356128976
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,1,8,0.972921635814374
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,2,4,0.9262250229385796
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,2,6,0.917835251820028
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,0.2,2,8,0.9161264609016342
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,0,4,0.8922372724612078
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,0,6,0.8307776283473038
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,0,8,0.8498582711894778
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,1,4,0.9132254017529536
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,1,6,0.9051448441019164
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,1,8,0.8956727867734633
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,2,4,0.9296097323193964
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,2,6,0.9652570385584752
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized extravert,1.0,2,8,0.8697091260836165
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,0,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,0,4,0.93115421087007
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,0,6,0.9675790531026708
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,0,8,0.9510113357732882
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,1,4,0.9869974682226536
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,1,6,0.968406230895974
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,1,8,0.9740053615351468
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,0,2,0.9999999999999996
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,0,4,0.8801789870761512
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,0,6,0.8758602766753086
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,0,8,0.8889233051161314
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,2,2,0.9999999999999998
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,2,4,0.9599541212317524
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,2,6,0.936571712984396
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,2,8,0.9180027311028536
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,2,4,0.8946379690581157
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,2,6,0.9596807781034984
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,0.2,2,8,0.9377366080977378
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,0,4,0.9279850173207108
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,0,6,0.9542394179168796
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,0,8,0.942844781443403
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,2,4,0.9248542613675628
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,2,6,0.9680950317440244
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,2,8,0.932401255581066
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,1,4,0.909507388452332
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,1,6,0.914760643418431
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious organized introvert,1.0,1,8,0.9304372702962566
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,1,4,0.9091830972531002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,1,6,0.901762463763701
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,1,8,0.8897456336293871
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,0,4,0.9558249389506986
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,0,6,0.9366392169052744
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,0,8,0.967548567482193
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,1,4,0.9543868863644004
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,1,6,0.9467353300196008
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,0.2,1,8,0.9147202591114922
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,2,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,2,4,0.9258231253058375
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,2,6,0.8988057695507474
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm organized introvert,1.0,2,8,0.9104368912690224
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,2,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,2,4,0.8837819150644006
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,2,6,0.8953382696257096
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,2,8,0.8951120725969015
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,0,4,0.9018036739680932
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,0,6,0.8947201969638682
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,0,8,0.8997065213942019
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,0,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,0,4,0.8865673297358208
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,0,6,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,0,8,0.9531624765577068
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,1,4,0.9681799084242352
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,1,6,0.95802142878217
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,1,8,0.9571260567824648
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,2,4,0.981812948549442
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,2,6,0.9832684264760334
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,2,8,0.9641616969297264
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,1,4,0.8849368610559325
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,1,6,0.8972966158167577
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,0.2,1,8,0.951046597151169
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,1,4,0.8483762131380281
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,1,6,0.8634972524573865
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,1,8,0.890979485507018
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,0,4,0.9532182556490768
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,0,6,0.9635061154587128
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,0.2,0,8,0.985728194436282
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,2,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,2,4,0.9031314842361372
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,2,6,0.9134706489217028
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,anxious disorganized introvert,1.0,2,8,0.9249738302535476
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,1,2,1.0000000000000004
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,1,4,0.9012284585606232
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,1,6,0.9188614673639516
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,1,8,0.9556580708176394
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,0,4,0.9209484166250472
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,0,6,0.9141157730439222
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,0,8,0.92174646198008
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,0,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,0,4,0.9117260205193554
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,0,6,0.917630855297248
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,0,8,0.9119560949978966
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,2,4,0.9196986686213626
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,2,6,0.9199673889653686
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,calm disorganized introvert,1.0,2,8,0.945736015919075
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,2,4,0.9025838478338982
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,2,6,0.9128259336728666
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,2,8,0.9146478338553264
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,0,4,0.93525914884628
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,0,6,0.9037213247548604
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,0,8,0.9248535087127364
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,1,4,0.8849887466265869
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,1,6,0.8676151754136223
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,1,8,0.8744597081916289
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,1,4,0.8803275516768481
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,1,6,0.880702763907002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,1,8,0.8814456101579777
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,0,4,0.8991697219672729
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,0,6,0.9039904055782896
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,1.0,0,8,0.86226485244991
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,0,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,0,4,0.8909033244416736
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,0,6,0.8656890533929731
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,0,8,0.8651134023156795
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,1,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,1,4,0.8961760437149587
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,1,6,0.8875960024430567
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,1,8,0.8866335333963856
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,2,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,2,4,0.9291966660810702
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,2,6,0.8938335736058838
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,2,8,0.8999087174978402
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,2,4,0.8946641174336096
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,2,6,0.885730180437911
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-1,0.2,2,8,0.8661003931785739
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,1,2,1.0000000000000002
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,1,4,0.8854008417975028
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,1,6,0.874218514563039
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,0.2,1,8,0.8835771656532604
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,2,2,1.0
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,2,4,0.8761635916831492
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,2,6,0.8414422046659699
+Gemma 26B + Gemini 3.1 Flash-Lite,gemma-4-26b-a4b-it|gemini-3.1-flash-lite,8,random-2,1.0,2,8,0.8673499076154457
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,0,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,0,4,0.8756019666576847
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,0,6,0.9068464256097076
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,0,8,0.8614487510081118
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,2,2,0.9999999999999996
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,2,4,0.920531991516926
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,2,6,0.9332845638060888
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-1,1.0,2,8,0.905166255909011
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,1,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,1,4,0.8712131933320479
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,1,6,0.9006043822315632
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,1,8,0.9169666026802537
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,2,2,1.0000000000000002
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,2,4,0.8596658900284826
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,2,6,0.9014088779047444
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,0.2,2,8,0.8567396867420306
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,0,2,1.0
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,0,4,0.8201595425166844
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,0,6,0.7755930196630338
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,0,8,0.8462381726929831
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,1,2,0.9999999999999998
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,1,4,0.865401557189889
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,1,6,0.8614364682282145
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,1,8,0.8356283295639033
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,2,2,0.9999999999999996
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,2,4,0.8896205379468634
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,2,6,0.8771444008507973
+Gemini 3.5 Flash-Lite,gemini-3.5-flash-lite,8,random-2,1.0,2,8,0.8609359785340703
