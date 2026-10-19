@@ -177,7 +177,20 @@ def attractors(df: pd.DataFrame, top: int = 10) -> pd.DataFrame:
     names = {"".join(map(str, v)): k for k, v in coherent_profiles().items()}
     counts = last.groupby("answers").size().sort_values(ascending=False).head(top).reset_index(name="chains")
     counts["nearest stereotype"] = counts["answers"].map(lambda a: _nearest(a, names))
+    # Who each chain started as: "stayed" = the person was already this pattern, otherwise the starting person.
+    starts = df[df["step"] == 0].groupby("profile")["answers"].first()
+    counts["started as"] = counts["answers"].map(
+        lambda a: _started_as(last[last["answers"] == a]["profile"], a, starts)
+    )
     return counts
+
+
+def _started_as(profiles: pd.Series, answers: str, starts: pd.Series) -> str:
+    """E.g. "18 stayed + 11 from random-2 + 5 from random-1" for the chains that ended on one answer pattern."""
+    parts = []
+    for profile, n in profiles.value_counts().items():
+        parts.append(f"{n} stayed" if starts[profile] == answers else f"{n} from {profile}")
+    return " + ".join(sorted(parts, key=lambda part: "stayed" not in part))
 
 
 def _nearest(answers: str, names: dict[str, str]) -> str:
