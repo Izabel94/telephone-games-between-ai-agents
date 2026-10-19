@@ -96,6 +96,36 @@ jobs:
           cd /d "%TW%"
           .venv\Scripts\jupyter nbconvert --to notebook --execute workshop.ipynb --output executed.ipynb --ExecutePreprocessor.timeout=900
 
+  windows-deep-folder:
+    runs-on: windows-latest
+    timeout-minutes: 15
+    name: windows / folder too deep (OneDrive-style path)
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Unzip into a deep OneDrive-style folder, as a real participant did
+        shell: pwsh
+        run: |
+          $files = "telephone.py","analysis.py","check_models.py","README.md","requirements.txt",".env.example","workshop.ipynb","Setup-Windows.bat","Start-Windows.bat","Setup-Mac.command","Start-Mac.command","results"
+          Compress-Archive -Path $files -DestinationPath "$env:RUNNER_TEMP\tw.zip"
+          $target = Join-Path $env:USERPROFILE "OneDrive - University of Limerick\Conferences and visits\Izabel visit\Workshop files\tw"
+          Expand-Archive -Path "$env:RUNNER_TEMP\tw.zip" -DestinationPath $target -Force
+          "TW=$target" | Out-File -FilePath $env:GITHUB_ENV -Append -Encoding ascii
+          "folder path length: $($target.Length)"
+
+      - name: Setup-Windows.bat stops before installing and explains what to do
+        shell: cmd
+        run: |
+          cd /d "%TW%"
+          echo.| Setup-Windows.bat > setup.log 2>&1
+          type setup.log
+          findstr /c:"This folder is too deep" setup.log >nul || (echo expected the too-deep message & exit /b 1)
+          findstr /c:"USERPROFILE" setup.log >nul || (echo expected the USERPROFILE hint & exit /b 1)
+          if exist .venv (echo setup should not have created .venv & exit /b 1)
+          echo setup stopped early with the right message
+
   mac:
     runs-on: macos-latest
     timeout-minutes: 40
