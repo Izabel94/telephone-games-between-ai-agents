@@ -3,7 +3,6 @@
 import itertools
 import json
 import os
-import random
 import re
 import threading
 import time
@@ -30,11 +29,35 @@ ITEMS = [
     ("is emotionally stable, not easily upset", "is not emotionally stable and is easily upset"),
 ]
 
+# Which statements (by position in ITEMS, counting from 0) belong to which trait, and the answer a person HIGH on
+# that trait gives. 0 means reverse-keyed: e.g. an extravert answers 0 (false) to "is reserved".
 TRAIT_KEYS = {
     "extravert": {0: 0, 3: 0, 4: 1},
     "organized": {1: 1, 5: 1, 7: 0},
     "anxious": {2: 1, 6: 1, 8: 0},
 }
+
+# The people who start a chain. One answer per statement, in the order of ITEMS: 1 = true, 0 = false.
+#                                   reserved thorough worries quiet talkative perseveres tense disorganized stable
+STEREOTYPES = {
+    "anxious organized extravert":    [0, 1, 1, 0, 1, 1, 1, 0, 0],
+    "calm organized extravert":       [0, 1, 0, 0, 1, 1, 0, 0, 1],
+    "anxious disorganized extravert": [0, 0, 1, 0, 1, 0, 1, 1, 0],
+    "calm disorganized extravert":    [0, 0, 0, 0, 1, 0, 0, 1, 1],
+    "anxious organized introvert":    [1, 1, 1, 1, 0, 1, 1, 0, 0],
+    "calm organized introvert":       [1, 1, 0, 1, 0, 1, 0, 0, 1],
+    "anxious disorganized introvert": [1, 0, 1, 1, 0, 0, 1, 1, 0],
+    "calm disorganized introvert":    [1, 0, 0, 1, 0, 0, 0, 1, 1],
+}  # fmt: skip
+
+# Two people whose statements clash (e.g. reserved AND not quiet). They were picked once by coin flips, keeping only
+# patterns at least 2 answers away from every stereotype, and are fixed from now on.
+RANDOM_PEOPLE = {
+    "random-1": [1, 0, 1, 0, 0, 0, 1, 0, 0],
+    "random-2": [0, 0, 1, 1, 0, 0, 0, 1, 0],
+}
+
+PEOPLE = {**STEREOTYPES, **RANDOM_PEOPLE}
 
 REQUESTS_PER_MINUTE = {
     "gemma-4-26b-a4b-it": 30,
@@ -55,51 +78,6 @@ DEFAULT_RPD = 20
 CHANCE_ACCURACY = 0.5
 
 
-def coherent_profiles() -> dict[str, list[int]]:
-    """Builds the 8 coherent profiles: every high/low combination of extraversion, conscientiousness, neuroticism.
-
-    Returns:
-        Mapping from a readable name (e.g. "anxious organized introvert") to its 9 answers (1 = statement true).
-    """
-    profiles = {}
-    # Every high/low combination of the 3 traits: 2 x 2 x 2 = 8 people.
-    for flags in itertools.product([True, False], repeat=3):
-        answers = [0] * len(ITEMS)
-        words = []
-        for (trait, keyed), high in zip(TRAIT_KEYS.items(), flags):
-            # Set the trait's 3 statements. A reverse-keyed statement gets the opposite answer.
-            for index, value_when_high in keyed.items():
-                answers[index] = value_when_high if high else 1 - value_when_high
-            # Name the person, e.g. "anxious organized introvert".
-            words.append(
-                trait if high else {"extravert": "introvert", "organized": "disorganized", "anxious": "calm"}[trait]
-            )
-        profiles[" ".join(reversed(words))] = answers
-    return profiles
-
-
-def incoherent_profiles(count: int, seed: int = 7) -> dict[str, list[int]]:
-    """Draws fixed random profiles that sit at least 2 answers away from every coherent profile.
-
-    Args:
-        count: How many incoherent profiles to draw.
-        seed: Random seed, so the same profiles come back every time.
-
-    Returns:
-        Mapping from "random-N" to its 9 answers.
-    """
-    rng = random.Random(seed)
-    coherent = list(coherent_profiles().values())
-    profiles = {}
-    while len(profiles) < count:
-        # Flip a coin for each of the 9 statements.
-        candidate = [rng.randint(0, 1) for _ in ITEMS]
-        # Keep it only if it is at least 2 answers away from every stereotype (and not drawn before).
-        if min(hamming(candidate, c) for c in coherent) >= 2 and candidate not in profiles.values():
-            profiles[f"random-{len(profiles) + 1}"] = candidate
-    return profiles
-
-
 def hamming(a: list[int], b: list[int]) -> int:
     """Counts the answers that differ between two answer lists."""
     return sum(x != y for x, y in zip(a, b))
@@ -113,7 +91,7 @@ def accuracy(original: list[int], answers: list[int]) -> float:
 def distance_to_stereotype(answers: list[int]) -> int:
     """Answers away from the nearest coherent profile. 0 means the person has become a clean stereotype."""
     # Compare with all 8 stereotypes and keep the smallest number of differences.
-    return min(hamming(answers, c) for c in coherent_profiles().values())
+    return min(hamming(answers, c) for c in STEREOTYPES.values())
 
 
 def chance_stereotype_distance() -> float:
@@ -467,10 +445,16 @@ def calls_needed(setups: dict, profiles: dict, temperatures: list, chain_length:
 
 
 if __name__ == "__main__":
-    coherent = coherent_profiles()
-    assert len(coherent) == 8 and len({tuple(v) for v in coherent.values()}) == 8
-    assert all(distance_to_stereotype(p) == 0 for p in coherent.values())
-    assert all(distance_to_stereotype(p) >= 2 for p in incoherent_profiles(3).values())
+    # Check the written-out people: every stereotype agrees with the keying, and its name says high or low correctly.
+    low_words = {"extravert": "introvert", "organized": "disorganized", "anxious": "calm"}
+    for name, answers in STEREOTYPES.items():
+        for trait, keyed in TRAIT_KEYS.items():
+            high = trait in name.split()
+            assert high or low_words[trait] in name.split(), name
+            assert all(answers[i] == (v if high else 1 - v) for i, v in keyed.items()), (name, trait)
+    assert len({tuple(v) for v in STEREOTYPES.values()}) == 8
+    assert all(len(v) == len(ITEMS) for v in PEOPLE.values())
+    assert all(distance_to_stereotype(p) >= 2 for p in RANDOM_PEOPLE.values())
     assert parse_answers('{"answers": [true, false, true, false, true, false, true, false, true]}') == [1, 0] * 4 + [1]
     assert parse_answers('```json\n{"answers": [true, true, true, true, true, true, true, true, true]}\n```') == [1] * 9
     assert parse_answers('{"answers": [true, false]}') is None
@@ -499,5 +483,5 @@ if __name__ == "__main__":
     assert seed_for(0) != seed_for(1)
     assert chance_stereotype_distance() == 2.25
     print("self-check ok")
-    for name, p in coherent.items():
+    for name, p in PEOPLE.items():
         print(f"{name:32s} {''.join(map(str, p))}")

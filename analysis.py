@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from telephone import CHANCE_ACCURACY, Caller, chain_key, coherent_profiles, hamming, read_chains
+from telephone import CHANCE_ACCURACY, STEREOTYPES, Caller, chain_key, hamming, read_chains
 
 SERIES = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7", "#e34948"]
 SURFACE, INK, INK_MUTED, GRID = "#fcfcfb", "#0b0b0b", "#52514e", "#e4e3df"
@@ -96,7 +96,7 @@ def records_table(chains: list[dict]) -> pd.DataFrame:
 
 
 def _distance(answers: list[int]) -> int:
-    return min(hamming(answers, c) for c in coherent_profiles().values())
+    return min(hamming(answers, c) for c in STEREOTYPES.values())
 
 
 def _line_chart(df: pd.DataFrame, value: str, group: str, ylabel: str, title: str, ax=None):
@@ -174,7 +174,7 @@ def attractors(df: pd.DataFrame, top: int = 10) -> pd.DataFrame:
     readable = df.dropna(subset=["answers"])
     chain = ["setup", "profile", "temperature", "repeat"]
     last = readable[readable["step"] == readable.groupby(chain)["step"].transform("max")]
-    names = {"".join(map(str, v)): k for k, v in coherent_profiles().items()}
+    names = {"".join(map(str, v)): k for k, v in STEREOTYPES.items()}
     counts = last.groupby("answers").size().sort_values(ascending=False).head(top).reset_index(name="chains")
     counts["nearest stereotype"] = counts["answers"].map(lambda a: _nearest(a, names))
     # Who each chain started as: "stayed" = the person was already this pattern, otherwise the starting person.
@@ -289,7 +289,7 @@ def plot_tree(chains: list[dict], profile: str, setup: str | None = None):
         raise ValueError(f"no chains for profile={profile!r}, setup={setup!r}")
     counts, children = _build_tree(picked)
     root = ("".join(map(str, picked[0]["original"])),)
-    stereotypes = {"".join(map(str, v)): k for k, v in coherent_profiles().items()}
+    stereotypes = {"".join(map(str, v)): k for k, v in STEREOTYPES.items()}
 
     y_of: dict[tuple, float] = {}
 
