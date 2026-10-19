@@ -80,7 +80,11 @@ CHANCE_ACCURACY = 0.5
 
 def hamming(a: list[int], b: list[int]) -> int:
     """Counts the answers that differ between two answer lists."""
-    return sum(x != y for x, y in zip(a, b))
+    differences = 0
+    for i in range(len(a)):
+        if a[i] != b[i]:
+            differences += 1
+    return differences
 
 
 def accuracy(original: list[int], answers: list[int]) -> float:
@@ -102,11 +106,23 @@ def chance_stereotype_distance() -> float:
 
 def profile_to_text(answers: list[int]) -> str:
     """Writes a person as 9 plain sentences, e.g. "The person is reserved." This is what agent 1 reads."""
-    return " ".join(f"The person {pos if a else neg}." for (pos, neg), a in zip(ITEMS, answers))
+    sentences = []
+    for i in range(len(ITEMS)):
+        true_text, false_text = ITEMS[i]
+        if answers[i] == 1:
+            sentences.append(f"The person {true_text}.")
+        else:
+            sentences.append(f"The person {false_text}.")
+    return " ".join(sentences)
 
 
 def numbered_statements() -> str:
-    return "\n".join(f"{i}. The person {pos}." for i, (pos, _) in enumerate(ITEMS, 1))
+    """The 9 statements as a numbered list, e.g. "1. The person is reserved." (used in the survey prompt)."""
+    lines = []
+    for i in range(len(ITEMS)):
+        true_text = ITEMS[i][0]
+        lines.append(f"{i + 1}. The person {true_text}.")
+    return "\n".join(lines)
 
 
 def survey_prompt(description: str) -> str:
@@ -120,13 +136,16 @@ def survey_prompt(description: str) -> str:
 
 
 def description_prompt(answers: list[int]) -> str:
-    lines = "\n".join(
-        f"{i}. The person {pos}. -> {'TRUE' if a else 'FALSE'}"
-        for i, ((pos, _), a) in enumerate(zip(ITEMS, answers), 1)
-    )
+    # The 9 statements with the previous agent's answers, e.g. "1. The person is reserved. -> TRUE"
+    lines = []
+    for i in range(len(ITEMS)):
+        true_text = ITEMS[i][0]
+        answer = "TRUE" if answers[i] == 1 else "FALSE"
+        lines.append(f"{i + 1}. The person {true_text}. -> {answer}")
+    statements = "\n".join(lines)
     return (
         "Someone filled in a personality questionnaire about a person:\n\n"
-        f"{lines}\n\n"
+        f"{statements}\n\n"
         "Write a short description of this person in your own words, as if telling a friend about them. "
         "Do not list or quote the statements."
     )
